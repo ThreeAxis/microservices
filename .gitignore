@@ -3,3 +3,5 @@
 /spring-boot-microservices/eureka-server-config/.gradle/
 /spring-boot-microservices/forex-service/.gradle/
 /.idea/
+/spring-boot-microservices/currency-conversion-service/build/
+/spring-boot-microservices/forex-service/build/
