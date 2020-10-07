@@ -5,3 +5,4 @@
 /.idea/
 /spring-boot-microservices/currency-conversion-service/build/
 /spring-boot-microservices/forex-service/build/
+/spring-boot-microservices/eureka-server-config/build/
