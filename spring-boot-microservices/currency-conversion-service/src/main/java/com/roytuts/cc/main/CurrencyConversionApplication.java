@@ -7,7 +7,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @EnableDiscoveryClient
 @EnableFeignClients("com.roytuts.cc.proxy")
-@SpringBootApplication//(scanBasePackages = "com.roytuts.cc")
+@SpringBootApplication(scanBasePackages = "com.roytuts.cc")
 public class CurrencyConversionApplication {
 
 	public static void main(String[] args) {
