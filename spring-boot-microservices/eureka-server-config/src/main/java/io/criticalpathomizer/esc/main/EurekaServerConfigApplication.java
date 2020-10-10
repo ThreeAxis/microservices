@@ -1,4 +1,4 @@
-package com.roytuts.esc.main;
+package io.criticalpathomizer.esc.main;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
