@@ -1,11 +1,11 @@
-package com.roytuts.cc.proxy;
+package io.criticalpathomizer.cc.proxy;
 
 import org.springframework.cloud.netflix.ribbon.RibbonClient;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-import com.roytuts.cc.model.CurrencyConversion;
+import io.criticalpathomizer.cc.model.CurrencyConversion;
 
 @FeignClient(name = "forex-service")
 @RibbonClient(name = "forex-service")

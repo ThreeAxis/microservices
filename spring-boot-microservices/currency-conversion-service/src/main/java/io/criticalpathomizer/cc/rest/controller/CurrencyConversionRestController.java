@@ -1,4 +1,4 @@
-package com.roytuts.cc.rest.controller;
+package io.criticalpathomizer.cc.rest.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.roytuts.cc.model.CurrencyConversion;
-import com.roytuts.cc.proxy.CurrencyConversionProxy;
+import io.criticalpathomizer.cc.model.CurrencyConversion;
+import io.criticalpathomizer.cc.proxy.CurrencyConversionProxy;
 
 @RestController
 public class CurrencyConversionRestController {

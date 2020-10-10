@@ -1,4 +1,4 @@
-package com.roytuts.cc.model;
+package io.criticalpathomizer.cc.model;
 
 public class CurrencyConversion {
 
