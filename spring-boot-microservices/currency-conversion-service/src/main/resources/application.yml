@@ -5,11 +5,7 @@ spring:
 server:
    port: 9100
    
-forex-service:
-   ribbon:
-      listOfServers: localhost:9000,localhost:9001
-      
-#eureka:
-#   client:
-#      service-url:
-#         default-zone: http://localhost:8761/eureka
+eureka:
+   client:
+      service-url:
+         default-zone: http://localhost:8761/eureka
