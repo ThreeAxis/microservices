@@ -1,4 +1,4 @@
-package com.roytuts.forex.entity;
+package io.criticalpathomizer.forex.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

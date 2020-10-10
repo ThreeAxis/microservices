@@ -1,4 +1,4 @@
-package com.roytuts.forex.rest.controller;
+package io.criticalpathomizer.forex.rest.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.roytuts.forex.entity.ForexValue;
-import com.roytuts.forex.repository.ForexRepository;
+import io.criticalpathomizer.forex.entity.ForexValue;
+import io.criticalpathomizer.forex.repository.ForexRepository;
 
 @RestController
 public class ForexRestController {

@@ -1,4 +1,4 @@
-package com.roytuts.forex.main;
+package io.criticalpathomizer.forex.main;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,9 +7,9 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @EnableDiscoveryClient
-@EntityScan("com.roytuts.forex.entity")
-@EnableJpaRepositories("com.roytuts.forex.repository")
-@SpringBootApplication(scanBasePackages = "com.roytuts.forex")
+@EntityScan("io.criticalpathomizer.forex.entity")
+@EnableJpaRepositories("io.criticalpathomizer.forex.repository")
+@SpringBootApplication(scanBasePackages = "io.criticalpathomizer.forex")
 public class ForexApplication {
 
 	public static void main(String[] args) {
